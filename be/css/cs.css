@@ -1,0 +1,130 @@
+    body{
+    padding: 0px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:antialiased;
+
+}
+.center
+{
+    margin: 0px auto;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 100%;
+	margin: 5px auto;
+}
+
+#content {
+	width: 28%;
+	float: left;
+    padding: 5px 15px;
+    border: 2px solid black;
+    background-color: #24b4be;
+}
+
+#middle {
+	width: 28%;
+	float: left;
+	padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+    border: 2px solid black;
+    background-color: #2a33af;
+}
+
+#sidebar {
+	width: 28%;
+	padding: 5px 15px;
+    float: left;
+    border: 2px solid black;
+    background-color: #0b29b3;
+}
+#content #second{
+    border: 2px solid black;
+    width: 20%;
+    position: relative;
+    left:82.4%; 
+    top: -7px;
+    background: rgb(47, 180, 7);
+    text-align: center;
+}
+#middle #second{
+    color: blanchedalmond;
+    border: 2px solid black;
+    width: 20%;
+    position: relative;
+    left:82.4%; 
+    top: -7px;
+    background: tomato;
+    text-align: center;
+}
+#sidebar #second{
+    border: 2px solid black;
+    width: 20%;
+    position: relative;
+    left:82.4%; 
+    top: -7px;
+    background: #08c211;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+	
+	#pagewrap {
+		width: 100%;
+		
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+		background-color: purple;
+		
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+		background-color: purple;
+	}
+	
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+		background-color: purple;
+	}
+
+	
+}
+
+@media screen and (max-width: 767px) {
+
+	#content {
+		width: auto;
+       	 	float: none;
+		background-color: red;
+        
+	}
+	
+	#middle {
+		width: auto;
+		float: none;
+		margin-top: 4px;
+		background-color: red;
+	}
+	
+	#sidebar {
+		width: auto;
+		float: none;
+		background-color: red;
+	}
